@@ -59,7 +59,7 @@ const Experience = () => {
                 {techs.map(({id,name,style,src})=>(
                     <div 
                     key={id}
-                    className={"shadow-md hover:scale-105 duration-500  rounded-lg"+" "+style}
+                    className={`shadow-md hover:scale-105 duration-500  rounded-lg ${style}`}
                     >
                         <img
                         className="w-20 mx-auto"
